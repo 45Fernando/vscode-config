@@ -1,36 +1,44 @@
 {
-    "git.ignoreLimitWarning": true,
+  "workbench.colorTheme": "Material Theme",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace, 'CaskaydiaCove NF'",
+  // Default (format when you paste)
+  "editor.formatOnPaste": true,
+  // Default (format when you save)
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[elixir]": {
     "editor.formatOnSave": true,
-    "html.format.contentUnformatted": "",
-    "files.associations": {
-      "*.js": "javascript",
-      "*.eex": "html-eex",
-      "*.leex": "html-eex"
-    },
-    "emmet.includeLanguages": {
-    "HTML (EEx)": "html"
-    },
-    "beautify.language": {
-        "js": {
-          "type": [
-            "javascript",
-            "json",
-            "jsonc"
-          ],
-          "filename": [
-            ".jshintrc",
-            ".jsbeautifyrc"
-          ]
-        },
-        "css": [
-          "css",
-          "less",
-          "scss"
-        ],
-        "html": [
-          "htm",
-          "html",
-          "HTML (EEx)"
-        ]
-      }
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[phoenix-heex]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "RoyalMist.vscode-eex-format"
+  },
+  "tailwindCSS.includeLanguages": {
+    "phoenix-heex": "html",
+    "elixir": "html"
+    // ...
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "emmet.includeLanguages": {
+    "html-eex": "html",
+    "javascript": "javascriptreact",
+    "phoenix-heex": "html",
+    "elixir": "html"
+  },
+  "files.associations": {
+    "*.heex": "phoenix-heex",
+    "*.eex": "eex"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.editor.labelFormat": "short",
+  "python.defaultInterpreterPath": "C:\\Users\\ferex\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.stickyScroll.enabled": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.wordWrap": "on"
 }
